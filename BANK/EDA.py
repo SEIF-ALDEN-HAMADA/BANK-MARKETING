@@ -6,7 +6,7 @@ import streamlit as st
 from Data_Cleaning import DataCleaningClass
 
 #data reading
-data = pd.read_csv("BANK/bank.csv")
+data = pd.read_csv("bank.csv")
 
 # Preview the Data
 st.title("BANK DATA DASHBOARD")
